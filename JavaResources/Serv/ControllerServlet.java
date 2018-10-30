@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import PlanetRenox.AES256_GCM;
+import Crypto.AES256_GCM;
 
 @WebServlet
 public class ControllerServlet extends HttpServlet {
