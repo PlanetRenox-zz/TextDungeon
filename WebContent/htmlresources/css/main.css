@@ -79,6 +79,7 @@ fieldset {
 
 textarea {
     resize: vertical;
+    outline: none;
 }
 
 /* ==========================================================================
@@ -124,6 +125,32 @@ body {
 
 }
 
+#login.about{
+	position:fixed;
+  	left: 0;
+	right: 0;
+ 	margin:auto;
+ 	top: 15em;
+	
+	width: 45em;
+	font-family: Candara;
+	Color: gray;
+	font-size: 14px;
+	line-height: 1.5;
+	background-color: rgb(0, 8, 13, .9);
+	padding: 0px;
+}
+
+#faq{
+	margin: 2.1em;
+}
+#faq a:link{
+	color:#015b60;
+}
+
+#login.low{
+	visibility: hidden;
+}
 #path {
     border-top-style: groove;
 }
@@ -134,23 +161,36 @@ body {
 
 #submit {
 position: fixed;
-top: 6em;
-margin-left: 21.5px;
-z-index:1000;
+top: 2.2em;
+margin-left: 52.8em;
 
-    width: 1.5em;
-    height: 1.5em;
+
+    width: 3em;
+    height: 1.8em;
     background-color: #001a0d;
     border-color: #00131a;
+    color: #859987;
 }
 
 #addtab {
   position: fixed;
-  top: 2.28em;
-  margin-left: 62.2em;
+  top: 2.2em;
+  margin-left: 51em;
 
 
       width: 1.8em;
+      height: 1.9em;
+      background-color: #00131a;
+    border-color: #00131a;
+      color: #859987;
+}
+#del {
+  position: fixed;
+  top: 2.28em;
+  margin-left: 60em;
+
+
+      width: 3.6em;
       height: 1.8em;
       background-color: #00131a;
     border-color: #00131a;
@@ -158,7 +198,7 @@ z-index:1000;
 }
 
 #submitfront{
-  border-style: none;
+  visibility: hidden;
 }
 
 #about {
@@ -244,14 +284,14 @@ article.tabs
 	height: 15em;
 	margin: 2em 4em;
 }
-
+/* height: 52.5em; */
 article.tabs section
 {
 	position: absolute;
 	display: block;
 	top: 1.8em;
 	left: 0;
-	height: 52.5em;
+	height: 51em;
   width: 57.5em;
 
 	padding: 10px 20px;
@@ -345,7 +385,288 @@ article.tabs section:target h2
 }
 
 
+/* ==========================================================================
+   Media Queries for Responsive Design.
+   ========================================================================== */
 
+@media only screen and (min-width: 1026px) {
+	border-style: none;
+}
+
+@media only screen and (max-width: 1025px) {
+    /* Style adjustments for viewports that meet the condition */
+    
+    #login.about{
+    width: 40em;
+	font-size: 12px;
+    }
+    
+   article.tabs{
+	margin: 2em 1.5em;
+	
+}
+
+	article.tabs section
+{
+	width: 54em;
+}
+    
+    #addtab {	
+ 	margin-left: 48em;
+}
+#submit{
+	margin-left:49.8em;
+}
+#del{
+	margin-left:54em;
+}
+    
+    #logo {
+    width: 300px;
+}
+
+#login{ 
+  padding: 30px 50px 0px 50px;         
+          margin-top: 40%;
+          margin-bottom: auto;
+          margin-left: 17%;
+          margin-right: 17%;
+} 
+
+#submitfront.log{
+  	visibility: visible;
+	margin-left: 70%;
+	margin-top:5%;
+	z-index:1000;
+    width: 3.5em;
+    height: 1.5em;
+    background-color: #001a0d;
+    border-color: #00131a;
+    color: #00565d;
+    font-size: .9em;
+}  
+        
+}
+
+@media only screen and (max-width: 480px) {
+    /* Style adjustments for viewports that meet the condition */  
+    
+    html, body {
+    overflow-x: hidden;
+    }
+     
+    #logo {
+    width: 260px;
+}
+
+#login.about{
+    width: 30em;
+	font-size: 10px;
+    }
+
+#login{
+  	  	  padding: 30px 50px 0px 50px;  
+          margin-top: 45%;
+          margin-bottom: auto;
+          margin-left: 5%;
+          margin-right: 5%;
+}  
+
+#submitfront.log{
+  	visibility: visible;
+	margin-left: 70%;
+	margin-top:5%;
+	z-index:1000;
+    width: 3.5em;
+    height: 1.5em;
+    background-color: #001a0d;
+    border-color: #00131a;
+    color: #00565d;
+    font-size: .9em;
+} 
+
+article.tabs{
+	margin: 0.9em 1.1em;
+	
+}
+
+
+article.tabs section
+{
+	width: 24em;
+}
+article.tabs section h2
+{
+	width: 32px;
+	font-size: 11px;
+}
+
+article.tabs section:nth-child(2) h2
+{
+	left: 43px;
+
+}
+
+article.tabs section:nth-child(3) h2
+{
+	left: 76px;
+
+}
+
+article.tabs section:nth-child(4) h2
+{
+	left: 109px;
+
+}
+
+article.tabs section:nth-child(5) h2
+{
+	left: 142px;
+
+}
+
+article.tabs section:nth-child(6) h2
+{
+	left: 175px;
+
+}
+
+article.tabs section:nth-child(7) h2
+{
+	left: 208px;
+	
+
+}
+#submit {
+	top: 2.25em;
+	margin-left: 22.75em;
+    width: 3em;
+    height: 1.73em;
+    font-size: 11px;
+    padding-left: 3.5px;
+}
+#del {
+	top: 2.5em;
+ 	margin-left: 28em;
+    width: 3.5em;
+    height: 1.73em;
+    font-size: 10.5px;
+    padding-left: 3px;
+    
+}
+#addtab {
+	top: 1.8em;
+ 	margin-left: 16.5em;
+    width: 1.2em;
+    height: 1.3em;
+    font-size: 14px;
+    padding-left: 3px;
+}
+
+}
+
+@media only screen and (max-width: 445px) {
+	article.tabs section
+{
+	width: 21em;
+}
+}
+@media only screen and (max-width: 395px) {
+	article.tabs{
+	margin: 0.9em 0.8em;
+	
+}
+	article.tabs section
+{
+	width: 19em;
+}
+}
+@media only screen and (max-width: 360px) {
+	article.tabs{
+	margin: 0.9em 0.5em;
+	
+}
+	article.tabs section
+{
+	width: 18em;
+}
+}
+
+@media only screen and (max-width: 337px) {
+	
+	article.tabs{
+	margin: 0.9em 0.1em;
+	
+}
+
+#del {
+	
+ 	margin-left: 27em;
+    
+}
+
+}
+
+@media only screen and (max-height: 57.5em) {
+	article.tabs section
+{
+	height: 45em;
+}}
+
+@media only screen and (max-height: 51em) {
+	article.tabs section
+{
+	height: 40em;
+}
+
+#login{
+	margin-top: 27%;
+    }
+
+}
+
+@media only screen and (max-height: 46em) {
+	article.tabs section
+{
+	height: 35em;
+}
+
+
+
+
+}
+
+@media only screen and (max-height: 41em) {
+	article.tabs section
+{
+	height: 27em;
+}
+
+#login.about{
+	top:9em;
+    }
+    
+    
+
+}
+
+@media only screen and (max-height: 500px) {
+	article.tabs section
+{
+	height: 22.5em;
+}
+
+#login.about{
+	top:2em;
+    }
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
 
 /* ==========================================================================
    Helper classes
@@ -427,51 +748,7 @@ article.tabs section:target h2
     clear: both;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
 
-@media only screen and (max-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-    body {
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: -100;
-        display: inherit;
-    }
-
-    #logo {
-        width: 480px;
-        margin-top: 6.5%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #path {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 22%;
-    }
-
-    #pass {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 30px;
-    }
-}
-
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
 
 /* ==========================================================================
    Print styles.
