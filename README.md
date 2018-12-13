@@ -1,4 +1,4 @@
-# TextDungeon.io
+# [TextDungeon.io](https://textdungeon.io/)
 
 
 Designed with simplicity in mind, TextDungeon is an open source project 
