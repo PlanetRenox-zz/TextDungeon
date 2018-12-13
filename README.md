@@ -17,5 +17,5 @@ I tried my best to keep everything that involves the encryption side of things c
 If anyone wants to know more in detail or if you come across any bugs please feel free to email me. In advance I should mention that since all private user text is isolated and locked away behind a password, I allow the user to customize their html within their text if they wish for whatever reason since the isolation does not allow XSS.
 
 # License
-[WPL](https://github.com/PlanetRenox/TextDungeon.io/blob/master/LICENSE)
+[WPL](https://github.com/PlanetRenox/TextDungeon.io/blob/master/LICENSE) 
    
