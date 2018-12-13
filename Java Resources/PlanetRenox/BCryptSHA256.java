@@ -1,3 +1,6 @@
+// PlanetRenox.com | github.com/PlanetRenox   
+// Contact: planetrenox@pm.me 
+
 package PlanetRenox;
 import java.io.UnsupportedEncodingException;
 import java.math.BigInteger;
