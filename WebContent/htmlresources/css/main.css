@@ -167,8 +167,8 @@ margin-left: 52.8em;
 
     width: 3em;
     height: 1.8em;
-    background-color: #001a0d;
-    border-color: #00131a;
+    background-color: #00363d;
+    border-color: #12313a;
     color: #859987;
 }
 
@@ -180,8 +180,8 @@ margin-left: 52.8em;
 
       width: 1.8em;
       height: 1.9em;
-      background-color: #00131a;
-    border-color: #00131a;
+      background-color: #00363d;
+    border-color: #12313a;
       color: #859987;
 }
 #del {
@@ -192,8 +192,8 @@ margin-left: 52.8em;
 
       width: 3.6em;
       height: 1.8em;
-      background-color: #00131a;
-    border-color: #00131a;
+      background-color: #00363d;
+    border-color: #12313a;
       color: #859987;
 }
 
@@ -292,7 +292,7 @@ article.tabs section
 	top: 1.8em;
 	left: 0;
 	height: 51em;
-  width: 57.5em;
+  	width: 57.5em;
 
 	padding: 10px 20px;
 
@@ -319,7 +319,7 @@ article.tabs section h2
 	padding: 0;
 	margin: 0;
 	color: #999;
-	background-color: #001a0d;
+	background-color: #00363d; 
 	border-radius: 5px 5px 0 0;
 }
 
@@ -380,8 +380,17 @@ article.tabs section:target,
 article.tabs section:target h2
 {
 	color: #333;
-	background-color: #00131a;
+	background-color: #00131a; 
 	z-index: 2;
+}
+
+article.tabs section{
+border-left: 5px solid #001e29;
+border-right: 5px solid #001e29;
+}
+
+article.tabs section:target h2{
+	border-top: 3px solid #00363d;
 }
 
 
