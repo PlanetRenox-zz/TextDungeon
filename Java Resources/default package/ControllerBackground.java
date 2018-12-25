@@ -11,7 +11,7 @@ import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
-/* This class cleans up expired temporary logins every 15 minutes. */
+/* This class cleans up expired temporary logins every 20 minutes. */
 
 @WebListener
 public class ControllerBackground implements ServletContextListener {
@@ -22,7 +22,7 @@ public class ControllerBackground implements ServletContextListener {
 	public void contextInitialized(ServletContextEvent event) {
 
 		scheduler = Executors.newSingleThreadScheduledExecutor();
-		scheduler.scheduleAtFixedRate(new ServletContextCleanup(event.getServletContext()), 0, 15, TimeUnit.MINUTES);
+		scheduler.scheduleAtFixedRate(new ServletContextCleanup(event.getServletContext()), 0, 20, TimeUnit.MINUTES);
 	}
 
 	@Override
@@ -41,7 +41,7 @@ public class ControllerBackground implements ServletContextListener {
 
 		@Override
 		public void run() {
-			int expireTime = 60000 * 10 ; // 60000 = 1 min
+			int expireTime = 60000 * 15 ; // 60000 = 1 min
 
 			Enumeration<?> e = context.getAttributeNames();
 			while (e.hasMoreElements()) {
