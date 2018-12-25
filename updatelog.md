@@ -1,9 +1,10 @@
 # Update Log
 
-
-
 ### Dec 13 2018
-Official Public Release TextDungeon Version 1.0
+Official Public Release - version 1.0
+- Mentioned only on /r/PrivacyToolsIO
 
 ### Dec 24 2018
-Slight UI improvements for visibility on darker screens
+User page UI improvements for better visibility on darker screens - version 1.1
+- Change in color palette
+- borders added
