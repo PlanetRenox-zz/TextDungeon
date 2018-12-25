@@ -1,5 +1,5 @@
 <p align="center"><a href="https://textdungeon.io/">
-<img src="/WebContent/htmlresources/img/logo.png?raw=true" alt="alt text" width="360px"> </a> 
+<img src="/WebContent/htmlresources/img/logo.png?raw=true" alt="alt text" width="450px"> </a> 
 </p>
 
 <p align="center"><a href="https://github.com/PlanetRenox/TextDungeon.io/blob/master/updatelog.md"><img src="https://img.shields.io/badge/Maintained%20%3F-Yes-green.svg"></a> <a href="https://github.com/PlanetRenox/TextDungeon.io/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/badge/license-WPL-yellowgreen.svg"> <img src="https://badges.frapsoft.com/os/v2/open-source.png?v=103"></a> </p>
