@@ -1,5 +1,6 @@
-# [TextDungeon.io](https://textdungeon.io/)
-
+<a href="https://textdungeon.io/">
+<img src="/WebContent/htmlresources/img/logo.png?raw=true" alt="alt text" width="350px" >
+</a>
 
 Designed with simplicity in mind, TextDungeon is an open source project 
 which lets people store any amount of text for personal safe-keeping 
