@@ -1,6 +1,10 @@
-<a href="https://textdungeon.io/">
-<img src="/WebContent/htmlresources/img/logo.png?raw=true" alt="alt text" width="350px" >
-</a>
+<p align="center"><a href="https://textdungeon.io/">
+<img src="/WebContent/htmlresources/img/logo.png?raw=true" alt="alt text" width="360px"> </a> 
+</p>
+
+<p align="center"><a href="https://github.com/PlanetRenox/TextDungeon.io/blob/master/updatelog.md"><img src="https://img.shields.io/badge/Maintained%20%3F-Yes-green.svg"></a> <a href="https://github.com/PlanetRenox/TextDungeon.io/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/badge/license-WPL-yellowgreen.svg"> <img src="https://badges.frapsoft.com/os/v2/open-source.png?v=103"></a> </p>
+
+---
 
 Designed with simplicity in mind, TextDungeon is an open source project 
 which lets people store any amount of text for personal safe-keeping 
